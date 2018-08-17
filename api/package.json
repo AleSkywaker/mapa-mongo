@@ -1,16 +1,17 @@
 {
-  "name": "mapa-mongo",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Alex Colombo",
-  "license": "MIT",
-  "dependencies": {
-    "express": "^4.16.3",
-    "mocha": "^5.2.0",
-    "mongoose": "^5.2.8"
-  }
+    "name": "mapa-mongo",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "nodemon --exec mocha --recursive -R min"
+    },
+    "author": "Alex Colombo",
+    "license": "MIT",
+    "dependencies": {
+        "express": "^4.16.3",
+        "mocha": "^5.2.0",
+        "mongoose": "^5.2.8",
+        "supertest": "^3.1.0"
+    }
 }
